@@ -1,0 +1,13 @@
+##const
+  在声明变量的时候，除了var，还可以使用const和final，同时，在使用const和final的时候，可以省略var或者其他类型；
+  const和final定义的都是常量，值不能改变，
+    const定义的是编译时常量，只能用编译时常量来初始化
+    final定义的常量可以用变量来初始化
+
+##屏幕信息
+  导入 import dart:ui ；
+  就可以直接这样：
+  window.devicePixelRatio 获取设备像素比；
+  window.physicalSize  获取屏幕尺寸；
+  MediaQuery.of(context).padding.top 状态栏高度
+  MediaQuery.of(context).size.height  屏幕高度

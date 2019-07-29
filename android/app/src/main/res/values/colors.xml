@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color> <!--白色 -->
+    <color name="orange">#FFA500</color> <!--橙色 -->
+    <color name="red">#FF0000</color> <!--红色 -->
+    <color name="whitesmoke">#F5F5F5</color> <!--烟白色 -->
+    <color name="gainsboro">#DCDCDC</color> <!--淡灰色 -->
+    <color name="darkgrey">#A9A9A9</color> <!--暗灰色 -->
+    <color name="gray">#808080</color> <!--灰色 -->
+    <color name="steelblue">#4682B4</color> <!--钢兰色 -->
+    <color name="deepskyblue">#00BFFF</color> <!--深天蓝色 -->
+    <color name="green">#008000</color> <!--绿色 -->
+    <color name="black">#000000</color> <!--黑色 -->
+    <color name="black2">#5E5E5E</color> <!--黑色 -->
+    <color name="transparent">#0000</color> <!-- 透明 黑色 -->
+    <color name="transparent_white">#0fff</color> <!-- 透明 黑色 -->
+    <color name="white_transparent">#cfff</color> <!-- 透明 黑色 -->
+    <color name="black_transparent">#6000</color> <!-- 透明 黑色 -->
+    <!--本项目基准色-->
+    <color name="colorPrimary">#54B7CA</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#54B7CA</color>
+    <color name="app_background">#f5f5f5</color>
+    <color name="app_divider">#eeeeee</color>
+    <color name="appOther">#f69429</color>
+    <color name="remember_pass">#ababab</color>
+
+
+
+    <!--预约挂号-->
+    <color name="department_hao">#AAAAAA</color>
+
+
+    <!--支付-->
+    <color name="orange_ff6c00">#FF6C00</color>
+    <color name="pay_unselect">#C1644B</color>
+
+    <color name="white_f9">#F9F9F9</color> <!--白色 -->
+
+    <!--我的顶部颜色-->
+    <color name="mine_top_blue">#54B7CA</color>
+
+    <color name="grey_f1">#F1F1F1</color>
+    <color name="main_color">#F8F8F8</color>
+    <color name="white_1">#FFFFFF</color> <!--白色 -->
+    <color name="white_2">#F5F5F5</color> <!--烟白色 -->
+    <color name="white_4">#FDFDFD</color>
+    <color name="white_3">#e5e5e5</color> <!-- -->
+    <color name="tran_white_1">#66F5F5F5</color> <!--烟白色 -->
+    <color name="blue_icon">#2DA3F8</color>
+    <color name="blue_1">#09B6F2</color>
+    <color name="gray_2e">#2e3233</color>
+    <color name="gray_3">#333333</color>
+    <color name="gray_5">#555555</color>
+    <color name="gray_58">#585858</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_a">#aaaaaa</color>
+    <color name="gray_e">#eeeeee</color>
+    <color name="gray_e6">#E6E6E4</color>
+    <color name="gray_f7">#f7f7f7</color>
+    <color name="orange_1">#f69429</color>
+    <color name="gray_86a149">#86a149</color>
+    <color name="blue_77d4dc">#77D4DC</color>
+    <color name="green_07ad94">#07AD94</color>
+    <color name="green_fbeae0">#fbeae0</color>
+    <color name="green_119ea7">#119EA7</color>
+    <color name="white_blue_c8eef1">#C8EEF1</color>
+    <color name="blue_139bb4">#139bb4</color>
+    <color name="gray_00">#00A5CA</color>
+    <color name="gray_8">#888888</color>
+    <color name="red_c95371">#C95371</color>
+    <color name="blue_6dc3d3">#6DC3D3</color>
+    <color name="blue_139BB3">#139BB3</color>
+    <color name="red_c95472">#c95472</color>
+    <color name="orange_f58642">#f58642</color>
+    <color name="gray_c">#ccc</color>
+    <color name="gray_e4f5f8">#e4f5f8</color>
+    <color name="gray_f0fcfe">#f0fcfe</color>
+    <color name="blue_E1FAFF">#E1FAFF</color>
+    <color name="blue_9DD9E6">#9DD9E6</color>
+    <color name="green_90CF00">#90CF00</color>
+    <color name="white_f3">#F3F3F3</color> <!-- -->
+    <color name="blue_27A4BA">#27A4BA</color>
+
+</resources>

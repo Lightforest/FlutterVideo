@@ -1,0 +1,76 @@
+name: flutter_app1
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  english_words: ^3.1.0
+  flutter_webview_plugin: ^0.3.0+2
+  path_provider: ^0.5.0
+  video_player: 0.10.0+4
+  fluttertoast: ^2.1.1
+  camera: 0.4.2
+  orientation: 1.0.4
+  dio: ^2.1.0
+  fluro: ^1.3.4
+  flutter_image_compress: 0.3.1
+  flutter_spinkit: ^3.0.0
+  webview_flutter: ^0.3.7+1
+  jpush_flutter: 0.0.11
+  agora_rtc_engine: 0.9.4
+  permission_handler: ^3.1.0
+  agora_rtm: 0.9.3
+  shared_preferences: 0.5.3
+  sqflite: ^1.1.6
+  flutter_screenutil: 0.5.3
+  random_pk: 0.0.3
+  font_awesome_flutter: 8.5.0
+  like_button: 0.1.7
+  animatedloginbutton: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  #plugin:
+   #    androidPackage: com.agora.flutter_app
+    #   pluginClass: AgoraRtmPlugin
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+   - assets/images/bg_identify_head.png
+   - assets/images/bg_identify_idcard.png
+   - assets/images/bg_identify_qrcode.png
+   - assets/images/ic_take_photo.png
+   - assets/images/login_logo.png
+   - assets/images/app_logo.png
+
