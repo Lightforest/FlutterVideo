@@ -1,10 +1,10 @@
-本demo主要展示声网视频通话在Flutter中的应用，其他部分可自行忽略。
+# 声网视频通话在Flutter中的应用
 
-APP成功运行需要注意以下几个步骤：
+  APP成功运行需要注意以下几个步骤：
 
-1.到声网官网注册账号，并申请APPKey。<br>
-2.将申请的APP Key 配置到lib/fast/constants.dart/APPApiKey/Agora_app_id中。<br>
-3.APP跑起来后自定义个userid登录，按以下步骤找到视频部分入口<br>
+  1.到声网官网注册账号，并申请APPKey。<br>
+  2.将申请的APP Key 配置到lib/fast/constants.dart/APPApiKey/Agora_app_id中。<br>
+  3.APP跑起来后自定义个userid登录，按以下步骤找到视频部分入口<br>
   （若想先跳过登录步骤，可将main.dart文件中的变量_isLogin设为true）
   
   Agora视频通话示例--自定义视频通话示例--输入好友id后，点击和好友通话即可
@@ -13,4 +13,15 @@ APP成功运行需要注意以下几个步骤：
   ··“官方信令系统示例”为声网官方对于插件agora_rtm的实现demo<br>
   ··“自定义视频通话示例”则是本demo的重点，将以上两个插件结合实现视频的呼叫接听（群视频暂未实现）
   
+  
+# 自定义相机
+  
+  自定义相机的实现和webview加载html的功能在一起；
+  
+  lib\home\page\camera\identify_card.dart （自定义识别身份证的相机页面）     
+  lib\home\page\camera\identify_face.dart （自定义识别人脸的相机页面）  
+  lib\home\page\camera\identify_qrcode.dart （自定义扫描二维码的相机页面）  
+  
+  
+*本demo没有完整核验bug，只供部分参考*
  
