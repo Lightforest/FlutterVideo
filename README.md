@@ -22,6 +22,11 @@
   lib\home\page\camera\identify_face.dart （自定义识别人脸的相机页面）  
   lib\home\page\camera\identify_qrcode.dart （自定义扫描二维码的相机页面）  
   
-  
-*本demo没有完整核验bug，只供部分参考*
+ 
+ 
+ 
+ 
+# 注意
+ 
+  *本demo没有完整核验bug，只供部分参考*
  
