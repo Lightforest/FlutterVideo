@@ -16,7 +16,12 @@
   
 # 自定义相机
   
-  自定义相机的实现和webview加载html的功能在一起；
+  自定义相机的实现和webview加载html的功能在一起，按以下步骤运行APP：
+  
+  
+  1.将main.dart文件中的变量_isLogin设为true
+  2.APP跑起来后点击WebView示例，进入百度HTML页面（mywebview.dart），等待三秒即会自动跳入自定义识别身份证的相机页面（调用了方法`startIdentifyIDCard(context)`）。
+  3.进入各个自定义相机页面的入口都在mywebview.dart文件中
   
   lib\home\page\camera\identify_card.dart （自定义识别身份证的相机页面）     
   lib\home\page\camera\identify_face.dart （自定义识别人脸的相机页面）  
